@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #2f2f2f;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1::before {
+    content: "\00a7";
+    font-size: 24px;
+    color: #008000;
+    margin-right: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    width: 500px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #004080;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #003060;
+  }
+  
